@@ -1,0 +1,51 @@
+/*
+  Red AB0C2F
+  Blue 0076A5
+  LIght Grey C8C9C7
+  Dark Grey 888B8D
+  Black 000000
+  White 
+  Font: 1. Metric 2. Lyon 3. Arial / Georgia
+*/
+/*
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem;
+}
+.grid > div {
+  background: #ede7f6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+*/
+body {
+    font-family: Syne;
+    text-align: center;
+    background-color: #c8c9c7;
+    margin: 0;
+    grid-template-rows: 20% 70% 10%;
+    display: grid;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  h1,
+  footer {
+    background-color: #888b8d;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 40px;
+  
+    color: #ab0c2f;
+  }
+  
+  footer {
+    font-style: italic;
+  }
+  
