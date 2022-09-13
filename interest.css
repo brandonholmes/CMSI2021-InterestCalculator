@@ -7,41 +7,30 @@
   White 
   Font: 1. Metric 2. Lyon 3. Arial / Georgia
 */
-/*
-.grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 1rem;
-}
-.grid > div {
-  background: #ede7f6;
-  padding: 1.5rem;
-  border-radius: 1rem;
-}
-*/
+
 body {
     font-family: Syne;
     text-align: center;
     background-color: white;
     margin: 0;
-    grid-template-rows: 20px 1fr 10px;
-    display: flex;
+    display: grid;
+    grid-template-rows: 60px 1fr 30px;
   }
   
   section {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
   
-  h1,
+  header,
   footer {
     background-color: #888b8d;
   }
   
   h1 {
     margin: 0;
-    padding: 40px;
-  
+    padding: 10px;
     color: #ab0c2f;
   }
   
