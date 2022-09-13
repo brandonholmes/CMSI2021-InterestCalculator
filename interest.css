@@ -22,10 +22,10 @@
 body {
     font-family: Syne;
     text-align: center;
-    background-color: #c8c9c7;
+    background-color: white;
     margin: 0;
-    grid-template-rows: 20% 70% 10%;
-    display: grid;
+    grid-template-rows: 20px 1fr 10px;
+    display: flex;
   }
   
   section {
