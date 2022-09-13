@@ -8,33 +8,43 @@
   Font: 1. Metric 2. Lyon 3. Arial / Georgia
 */
 
+html,
 body {
-    font-family: Syne;
-    text-align: center;
-    background-color: white;
-    margin: 0;
-    display: grid;
-    grid-template-rows: 60px 1fr 30px;
-  }
-  
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  header,
-  footer {
-    background-color: #888b8d;
-  }
-  
-  h1 {
-    margin: 0;
-    padding: 10px;
-    color: #ab0c2f;
-  }
-  
-  footer {
-    font-style: italic;
-  }
-  
+  font-family: Syne;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  height: 100%;
+
+  /*
+  grid-template-rows: 10vh 1fr 5vh;
+  grid-template-rows: 60px 1fr 30px;
+  */
+}
+
+div {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header,
+footer {
+  background-color: #888b8d;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  color: #ab0c2f;
+}
+
+footer {
+  font-style: italic;
+}
