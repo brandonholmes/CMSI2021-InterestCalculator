@@ -39,6 +39,18 @@ function calculate() {
   const total = principal * (1 + rate / 100 / compounded) ** (compounded * years)
   const earnings = total - principal
 
-  totalSpan.textContent = "$" + total.toFixed(2)
-  earningsSpan.textContent = "$" + earnings.toFixed(2)
+  if(isNaN(total)) {
+    totalSpan.textContent = "?"
+  }
+  else {
+    totalSpan.textContent = `$ ${total.toFixed(2)}`  
+  }
+
+  if(isNaN(earnings)) {
+    earningsSpan.textContent = "?"
+  }
+  else {
+    earningsSpan.textContent = `$  ${earnings.toFixed(2)}`
+  }
+  
 }
