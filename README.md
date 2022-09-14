@@ -8,7 +8,7 @@ Enter four values:
 4. Number of Time Periods (e.g., years)
 
 And the calculator will calculate two values:
-1. The amount of interst earned
+1. The amount of interest earned
 2. The total amount of your investment with interest
 
 ## Calculating Compound Interest
