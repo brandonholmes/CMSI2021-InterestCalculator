@@ -12,13 +12,28 @@
   <body>
     <div>
       <header>
+        <img src="img/logo.png" id="logo" />
         <h1>Interest Calculator</h1>
+        <button id="helpButton">Need Help?</button>
       </header>
-
+      <div id="helpBox">
+        INSTRUCTIONS:<br />Set values for the principal amount, interest rate, the number of times
+        interest will be compounded per year, and the number of years over which interest will
+        accrue. The total amount of your investment and the amount earned off the principal will
+        update as amounts are entered.
+        <p><button id="closeButton">Close</button></p>
+      </div>
       <section>
         <p>Principal:<br /><input id="principal" /></p>
 
-        <p>Interest Rate:<br /><input id="rate" /></p>
+        <p>
+          Interest Rate: <span id="rateSpan"></span><br /><input
+            min="1"
+            max="100"
+            type="range"
+            id="rate"
+          />
+        </p>
 
         <p>Times Compounded / Year:<br /><input id="compounded" /></p>
 
@@ -28,7 +43,12 @@
         <p>Total: <span id="total">?</span></p>
       </section>
       <footer>
-        Brandon Michael-Ashley Holmes (c) 2022
+        <p>
+          Brandon Michael-Ashley Holmes (c) 2022
+          <a href="https://github.com/brandonholmes/CMSI2021-InterestCalculator"
+            >View Source Here</a
+          >
+        </p>
       </footer>
     </div>
 

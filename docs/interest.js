@@ -1,22 +1,34 @@
-/*
-Compound interest is calculated by multiplying the initial loan amount, or principal, 
-by one plus the annual interest rate raised to the number of compound periods minus one.
-This will leave you with the total sum of the loan including compound interest.
-
-P( 1 + r/100)n - P
-*/
-
 const principalInput = document.querySelector("#principal")
 const rateInput = document.getElementById("rate")
 const compoundedInput = document.getElementById("compounded")
 const yearsInput = document.getElementById("years")
 const totalSpan = document.getElementById("total")
 const earningsSpan = document.getElementById("earnings")
+const rateSpan = document.getElementById("rateSpan")
+const helpButton = document.getElementById("helpButton")
+const helpBox = document.getElementById("helpBox")
+const closeButton = document.getElementById("closeButton")
 
 principalInput.addEventListener("input", calculate)
 rateInput.addEventListener("input", calculate)
 compoundedInput.addEventListener("input", calculate)
 yearsInput.addEventListener("input", calculate)
+rateInput.addEventListener("input", updateRate)
+helpButton.addEventListener("click", showHelp)
+closeButton.addEventListener("click", hideHelp)
+
+function hideHelp() {
+  helpBox.style.display = "none"
+}
+
+function showHelp() {
+  helpBox.style.display = "inline-block"
+}
+
+function updateRate() {
+  const rate = Number(rateInput.value)
+  rateSpan.textContent = rate + "%"
+}
 
 function calculate() {
   const principal = Number(principalInput.value)

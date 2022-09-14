@@ -1,25 +1,17 @@
 /*
   Red AB0C2F
   Blue 0076A5
-  LIght Grey C8C9C7
+  Light Grey C8C9C7
   Dark Grey 888B8D
-  Black 000000
-  White 
-  Font: 1. Metric 2. Lyon 3. Arial / Georgia
 */
 
 html,
 body {
   font-family: Syne;
   text-align: center;
-  background-color: white;
+  background-color: #0076a5;
   margin: 0;
   height: 100%;
-
-  /*
-  grid-template-rows: 10vh 1fr 5vh;
-  grid-template-rows: 60px 1fr 30px;
-  */
 }
 
 div {
@@ -36,15 +28,60 @@ section {
 
 header,
 footer {
-  background-color: #888b8d;
+  background-color: #ab0c2f;
+}
+
+img {
+  margin: 16px;
+  max-height: 36px;
+  padding: 5px;
+}
+
+header {
+  border-bottom-width: 1px;
+  border-color: #888b8d;
+  border-style: none none solid none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-  margin: 0;
-  padding: 10px;
-  color: #ab0c2f;
+  margin: 16px;
+  color: #000000;
+  text-shadow: 2px 2px #888b8d;
 }
 
 footer {
   font-style: italic;
+  border-top-width: 1px;
+  border-style: solid none none none;
+  color: #888b8d;
+}
+
+a {
+  color: #888b8d;
+}
+
+button {
+  border-radius: 5px;
+  margin: 16px;
+  padding: 5px;
+  font-weight: 5px;
+  background-color: #0076a5;
+  color: #000000;
+}
+
+#helpBox {
+  position: absolute;
+  display: none;
+  margin-top: 10%;
+  margin-left: 30%;
+  padding: 10px;
+  min-height: fit-content;
+  width: 40%;
+  color: white;
+  background-color: #000000;
+  border-radius: 10px;
 }
