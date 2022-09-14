@@ -16,5 +16,7 @@ And the calculator will calculate two values:
 As defined by TheCalculatorSite.com: 
 > The formula for compound interest is A = P(1 + r/n)^nt, where P is the principal balance, r is the interest rate, n is the number of times interest is compounded per time period and t is the number of time periods.
 
+![compound interest diagram](https://www.thecalculatorsite.com/images/compound-interest-formula-diagram.png)
+
 ## Deployment
 The calculator is deployed online [here](https://brandonholmes.github.io/CMSI2021-InterestCalculator/).
