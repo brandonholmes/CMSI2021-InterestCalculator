@@ -19,4 +19,4 @@ As defined by TheCalculatorSite.com:
 ![compound interest diagram](https://www.thecalculatorsite.com/images/compound-interest-formula-diagram.png)
 
 ## Deployment
-The calculator is deployed online [here](https://brandonholmes.github.io/CMSI2021-InterestCalculator/).
+The calculator is deployed online using [GitHub Pages](https://pages.github.com/) [here](https://brandonholmes.github.io/CMSI2021-InterestCalculator/).
