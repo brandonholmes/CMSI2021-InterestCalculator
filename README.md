@@ -5,7 +5,8 @@ Enter four values:
 - Principal Amount
 - Interest Rate
 - Number of Times Interest is Compounded
-- Number of Years Interest 
+- Number of Years Interest
+
 And the calculator will calculate two values:
 - The amount of interst earned
 - The total amount of your investment with interest
