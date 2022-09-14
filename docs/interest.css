@@ -35,6 +35,12 @@ img {
   margin: 16px;
   max-height: 36px;
   padding: 5px;
+  transition: max-height 2s, transform 2s;
+}
+
+img:hover {
+  max-height: 100px;
+  transform: rotate(360deg);
 }
 
 header {
