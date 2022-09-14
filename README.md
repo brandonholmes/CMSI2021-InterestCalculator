@@ -20,3 +20,7 @@ As defined by TheCalculatorSite.com:
 
 ## Deployment
 The calculator is deployed online, using [GitHub Pages](https://pages.github.com/), [here](https://brandonholmes.github.io/CMSI2021-InterestCalculator/).
+
+## Additional Features
+1. View instructions by clicking "Show Help" in top right.
+2. Hover over logo in top left to expand.
